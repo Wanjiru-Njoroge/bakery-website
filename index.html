@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakery Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header section starts--->
+    <header class="header">
+      <h2 class="logo">Sugarnova</h2>
+
+      <nav class="navbar">
+        <a href="#home"> home</a>
+        <a href="#about"> about</a>
+        <a href="#menu">menu</a>
+        <a href="#contact">contact</a>
+        <a href="#blog">blog</a>
+      </nav>
+      <div class="icons">
+        <div class="fa-solid fa-magnifying-glass" id="search"></div>
+        <div class="fa-solid fa-cart-shopping" id="cart"></div>
+        <div class="fa-solid fa-bars" id="sub"></div>
+      </div>
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search" />
+        <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+      </div>
+      <div class="cart-item-container">
+        <div class="cart-item">
+          <span class="fa-solid fa-x"></span>
+          <img src="img/coffee.jpg" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">Ksh 200</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fa-solid fa-x"></span>
+          <img src="img/vanila cake.jpg" alt="" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">Ksh 200</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fa-solid fa-x"></span>
+          <img src="img/carrot cake.jpg" alt="" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">Ksh 200</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fa-solid fa-x"></span>
+          <img src="img/red velvet.jpg" alt="" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">Ksh 200</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <!-- header section ends--->
+    <!--home  starts-->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Where Sweet Dreams Take Flight!</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellat
+          dicta sunt delectus accusamus
+        </p>
+        <a href="#" class="btn">get yours now</a>
+      </div>
+    </section>
+    <!--home  ends-->
+    <!--about section starts-->
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+      <div class="row">
+        <div class="image">
+          <img src="/img/background15.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>What makes us special</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
+            pariatur fugiat libero at doloremque rerum voluptate iure fugit illo
+            accusantium eius maxime iusto, neque voluptas facere obcaecati
+            repellat nam. Sed? Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Odio exercitationem incidunt eaque eveniet quos
+            distinctio. Facere magni hic vel id eius repellendus alias. Sapiente
+            itaque vero aut dolore, voluptatibus labore!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, quisquam animi accusamus asperiores ullam laborum,
+            omnis quod voluptatem, sapiente doloremque molestias optio? Animi
+            voluptate, nisi incidunt optio cumque magni unde!
+          </p>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+
+    </section>
+    <!--about section ends-->
+    <!--menu section starts-->
+    <section class="menu" id="menu">
+        <h1 class="heading">our <span> menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="/img/carrot cake.jpg" alt="">
+                <h3>carrot cake</h3>
+                <div class="price">Ksh 150 <span>Ksh 200</span></div>
+                <a href="#" class="btn"> add to cart</a>
+
+            </div>
+            <div class="box">
+                <img src="/img/coffee.jpg" alt="">
+                <h3>coffee cake</h3>
+                <div class="price">Ksh 150 <span>Ksh 200</span></div>
+                <a href="#" class="btn"> add to cart</a>
+
+            </div>
+            <div class="box">
+                <img src="/img/red velvet.jpg" alt="">
+                <h3>red velvet cke</h3>
+                <div class="price">Ksh 150 <span>Ksh 200 </span></div>
+                <a href="#" class="btn"> add to cart</a>
+
+            </div>
+            <div class="box">
+                <img src="/img/strawberry cake.jpg" alt="">
+                <h3>strawberry cake</h3>
+                <div class="price">Ksh 150 <span>Ksh 200</span></div>
+                <a href="#" class="btn"> add to cart</a>
+
+            </div>
+            <div class="box">
+                <img src="/img/carrot cake.jpg" alt="">
+                <h3>carrot cake</h3>
+                <div class="price">Ksh 150 <span>Ksh 200</span></div>
+                <a href="#" class="btn"> add to cart</a>
+
+            </div>
+            <div class="box">
+                <img src="/img/carrot cake.jpg" alt="">
+                <h3>carrot cake</h3>
+                <div class="price">Ksh 150 <span>Ksh 200</span></div>
+                <a href="#" class="btn"> add to cart</a>
+
+            </div>
+        </div>
+    </section>
+    <!--menu section ends-->
+    <!--contact section starts-->
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>contact </span> us</h1>
+        <div class="row">
+            <iframe  class="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8523351620447!2d36.70920907436097!3d-1.260825735597545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1977bcd447e1%3A0xa40735542ccc713f!2sUthiru%20cooperation!5e0!3m2!1sen!2ske!4v1704210517255!5m2!1sen!2ske" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputbox">
+                    <span class="fa-solid fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputbox">
+                    <span class="fa-solid fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div><div class="inputbox">
+                    <span class="fa-solid fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" value="contact us" class="btn">
+            </form>
+        </div>
+    </section>
+     <!--contact section ends-->
+    <!---blog section starts-->
+    <section class="blog" id="blog">
+      <h1 class="heading">bl<span>og</span></h1>
+      <div class="box-contaner">
+        <div class="box">
+          <div class="image">
+            <img src="/img/umesh-soni-LDnmyOaA-ew-unsplash (1).jpg" alt="">
+
+          </div>
+          <div class="content">
+            <a href="#" class="title">mouth watering cake</a>
+            <span>by admin /2 jan,2024</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, esse sit tempora exercitationem debitis tempore nesciunt minima aut similique laboriosam? Facere nostrum quibusdam quidem laborum enim magnam similique dolorem nihil.</p>
+            <a href="#" class="btn"> read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="/img/cake3.jpg" alt="">
+
+          </div>
+          <div class="content">
+            <a href="#" class="title">mouth watering cake</a>
+            <span>by admin /2 jan, 2024</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, esse sit tempora exercitationem debitis tempore nesciunt minima aut similique laboriosam? Facere nostrum quibusdam quidem laborum enim magnam similique dolorem nihil.</p>
+            <a href="#" class="btn"> read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="/img/umesh-soni-LDnmyOaA-ew-unsplash (1).jpg" alt="">
+
+          </div>
+          <div class="content">
+            <a href="#" class="title">mouth watering cake</a>
+            <span>by admin /2 jan, 2024</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, esse sit tempora exercitationem debitis tempore nesciunt minima aut similique laboriosam? Facere nostrum quibusdam quidem laborum enim magnam similique dolorem nihil.</p>
+            <a href="#" class="btn"> read more</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!---blog section ends-->
+    <!--footer section starts-->
+    <section class="footer">
+      <div class="socials">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-tiktok"></a>
+        <a href="#" class="fab fa-instagram-square"></a>
+        <a href="#" class="fab fa-twitter"></a>
+    </div>
+    
+      <div class="links">
+        <a href="#home"> home</a>header
+        <a href="#about"> about</a>
+        <a href="#menu">menu</a>
+        <a href="#contact">contact</a>
+        <a href="#blog">blog</a>
+
+      </div>
+
+    </section>
+     <!--footer section ends-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
