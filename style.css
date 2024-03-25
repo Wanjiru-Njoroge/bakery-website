@@ -450,7 +450,7 @@ section{
 
 }
 @media(max-width:768px){
-    #menu{
+    #sub{
         display: inline-block;
     }
     .header .navbar{
